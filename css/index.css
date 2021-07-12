@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  height: 12%;
+  box-shadow: 0 0 10px gray;
+  border-bottom: 2px solid #E8E8E8;
+}
+header .logo {
+  margin-top: 0;
+  display: flex;
+}
+header .nav_right {
+  width: 60%;
+  display: flex;
+  margin-left: 3%;
+}
+header .nav_right .onglet {
+  display: inline-block;
+  height: auto;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 10%;
+}
+header .nav_right .onglet a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.6em;
+  display: inline-block;
+  justify-content: space-around;
+  margin: 2%;
+}
+header .nav_right img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.body_containt {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 89vh;
+  margin-top: 6.2%;
+  padding: 0;
+  background-color: #E8E8E8;
+}
+.body_containt .users {
+  display: inline-block;
+  height: 100%;
+  width: 19%;
+  border-right: 3px solid silver;
+}
+.body_containt .users .aside_title {
+  display: inline-block;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+}
+.body_containt .users .aside_body {
+  display: inline-block;
+  justify-content: space-around;
+  width: 100%;
+  height: 90%;
+}
+.body_containt .users .aside_body .user_info {
+  display: flex;
+  justify-content: space-around;
+  width: 92%;
+  height: 15%;
+  margin: 3%;
+  margin-bottom: 8%;
+  background-color: white;
+  box-shadow: 0 0 8px gray;
+  border-radius: 10px;
+}
+.body_containt .users .logo {
+  display: flex;
+}
+.body_containt .users .logo .img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.body_containt .users .names {
+  display: flex;
+  justify-content: space-around;
+}
+.body_containt .discussions {
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+}
+.body_containt .discussions .discussions_head {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 8%;
+}
+.body_containt .discussions .discussions_body {
+  display: inline-block;
+  justify-content: space-around;
+  width: 100%;
+  height: 90%;
+  background-color: #fff;
+}
+.body_containt .discussions .discussions_body .pubications {
+  width: 97%;
+  height: 40%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: flex;
+  border: 1px gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>SocialApp</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/socialapp-logo.png" class="logo_img" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">ACTUALITÉ</a></li>
+                <li><a href="">MESSAGES</a></li>
+                <li><a href="">PARAMÈTRE</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+        </div>
+        <div class="more_profile">
+            <img src="../images/heart.png" class="profile_heart_img" alt="">
+        </div>
+    </header>
+    <section id="corps">
+        <!--code html pour les users (bande à gauche)-->
+        <div id="participants">
+
+            <div style="text-align: center; bottom: 10px;">
+                <p><h3>SUGGESTION</h3></p>
+            </div>
+
+            
+            <div class="user">
+                <div class="user_img">
+                    <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+                </div>
+                <div class="user_infos">
+                    <div class="user_name">
+                        <p>Gourain</p>
+                    </div>
+                    <div class="user_pseudo">
+                        <p>@gourain</p>
+                    </div>
+                </div>
+                <div class="button_follow">
+                    <a href=""><p><h4>Follow</h4></p></a>                
+                </div>
+            </div>
+            <div class="user">
+                <div class="user_img">
+                    <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+                </div>
+                <div class="user_infos">
+                    <div class="user_name">
+                        <p>Gourain</p>
+                    </div>
+                    <div class="user_pseudo">
+                        <p>@gourain</p>
+                    </div>
+                </div>
+                <div class="button_follow">
+                    <a href=""><p><h4>Follow</h4></p></a>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user_img">
+                    <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+                </div>
+                <div class="user_infos">
+                    <div class="user_name">
+                        <p>Gourain</p>
+                    </div>
+                    <div class="user_pseudo">
+                        <p>@gourain</p>
+                    </div>
+                </div>
+                <div class="button_follow">
+                    <a href=""><p><h4>Follow</h4></p></a>                
+                </div>
+            </div>
+            <div class="user">
+                <div class="user_img">
+                    <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+                </div>
+                <div class="user_infos">
+                    <div class="user_name">
+                        <p>Gourain</p>
+                    </div>
+                    <div class="user_pseudo">
+                        <p>@gourain</p>
+                    </div>
+                </div>
+                <div class="button_follow">
+                    <a href=""><p><h4>Follow</h4></p></a>                
+                </div>
+            </div>
+            <div class="user">
+                <div class="user_img">
+                    <img src="../images/NRlogo.PNG" class="profile_img"  alt="">
+                </div>
+                <div class="user_infos">
+                    <div class="user_name">
+                        <p>Gourain</p>
+                    </div>
+                    <div class="user_pseudo">
+                        <p>@gourain</p>
+                    </div>
+                </div>
+                <div class="button_follow">
+                    <a href=""><p><h4>Follow</h4></p></a>                
+                </div>
+            </div>
+
+        </div>
+            <aside class="posts">
+                <div class="post_head">
+                    <div class="search">
+                        <form action="SocaialApp.php" method="post">
+                            <label for="recherche"> </label>
+                            <input type="search" name="search_bar" id="recherche" placeholder="faites une recherche...              ;"row=2cm>
+                        </form>
+                    </div>
+                    <div class="filtre">
+                        <div class="filtre_box">
+                            <form method="post" action="index.php">
+                                <p>
+                                <label for="priority" >Filtrez par </label><br />
+                                <select name="priority" id="priority" aria-placeholder="récent" >
+                                <option value="popularité">popularité</option>
+                                <option value="récent" >récent</option>
+                                <option value="aphabétique">aphabétique</option>
+                                </p>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="user_post">
+                    <p>post....</p>
+                </div>
+            </aside>
+    </section>
+</body>
+</html>
